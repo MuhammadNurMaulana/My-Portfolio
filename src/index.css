@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link a.active {
+  @apply bg-slate-800 text-white py-1 px-3 rounded-md transition-all duration-500 dark:bg-white dark:text-slate-800;
+}
